@@ -95,7 +95,6 @@ function App() {
         <br />
         <Button size="large" variant="contained" onClick={RolledValue}>Roll {value.diceNum ? value.diceNum : null}d{value.diceType}</Button>
         <br /> */}
-        <SelectGunType />
         <div style={{ maxWidth: "900px", width: "100%" }}>
           <GunCard
             gunName={`${gunPrefix} ${guildPrefix}`}
